@@ -61,10 +61,10 @@ Qatar-specific values with citations are the most useful contribution.
 
 A `render.yaml` blueprint is included: on Render choose New, then Blueprint, then select this repo.
 
-## Alignment with Qatar National Vision 2030 & AYCMQA goals
+## Alignment with Qatar National Vision 2030 goals
 
 - Supports the environmental development pillar of Qatar National Vision 2030 by making household energy and water impact measurable.
-- Gives youth climate groups such as AYCMQA a documented, reusable calculation backend for footprint tools and awareness campaigns.
+- Gives climate groups reusable calculation backend for footprint tools and awareness campaigns.
 - Relevant to SDG 6 (clean water), SDG 7 (energy), SDG 12 (responsible consumption) and SDG 13 (climate action).
 
 ## Contributing
