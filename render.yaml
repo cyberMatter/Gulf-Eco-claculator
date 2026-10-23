@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: gulf-eco-calculator-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health

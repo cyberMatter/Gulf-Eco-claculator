@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "region": "Qatar",
+    "version": "0.2.0",
+    "note": "'verified' means the value comes from a cited source. 'qatar_specific' means it was measured for Qatar. The API warns whenever a factor is not Qatar-specific."
+  },
+  "grid_electricity": {
+    "value": 0.4606,
+    "unit": "kgCO2/kWh",
+    "scope": "CO2 only",
+    "year": 2025,
+    "source": "IEA (2025), as listed in ABB '2025 Electricity Emission Factors' (Qatar: 460.6 gCO2/kWh)",
+    "source_url": "https://library.e.abb.com/public/bb45e69a3f44492da7594ae927bc1b74/9AKK108472A2616_en_A_2025%20Electricity%20Emission%20Factors.pdf",
+    "verified": true,
+    "qatar_specific": true
+  },
+  "heat": {
+    "natural_gas_kg_co2_per_mj": 0.0561,
+    "source": "IPCC 2006 Guidelines, Vol. 2 Ch. 2 default for natural gas: 56,100 kg CO2/TJ (= 0.0561 kg CO2/MJ), net calorific basis",
+    "source_url": "https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/2_Volume2/V2_2_Ch2_Stationary_Combustion.pdf",
+    "verified": true,
+    "qatar_specific": false
+  },
+  "desalination": {
+    "default_technology": "swro",
+    "technologies": {
+      "swro": {
+        "electricity_kwh_per_m3": 4.1,
+        "heat_mj_per_m3": 0,
+        "source": "Midpoint of 3.7-4.5 kWh/m3 for seawater reverse osmosis, from a published review table of desalination energy use.",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10248802/table/t0005",
+        "verified": true,
+        "qatar_specific": false
+      },
+      "med": {
+        "electricity_kwh_per_m3": 2.0,
+        "heat_mj_per_m3": 263,
+        "source": "Multi-effect distillation: 2 kWh electricity + 263 MJ heat per m3, same review table.",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10248802/table/t0005",
+        "verified": true,
+        "qatar_specific": false
+      },
+      "msf": {
+        "electricity_kwh_per_m3": 4.0,
+        "heat_mj_per_m3": 333,
+        "source": "Multi-stage flash: 4 kWh electricity + 333 MJ heat per m3, same review table.",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10248802/table/t0005",
+        "verified": true,
+        "qatar_specific": false
+      }
+    }
+  }
+}
